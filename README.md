@@ -1,7 +1,17 @@
 # prototype_1
 
-Prototyp – Beschreibung folgt.
+Prototyp auf Basis von Vite + React (TypeScript).
 
 ## Setup
 
-_Noch kein Tech-Stack festgelegt._
+```bash
+npm install
+npm run dev
+```
+
+## Skripte
+
+- `npm run dev` – Dev-Server mit HMR
+- `npm run build` – Typecheck (`tsc -b`) + Production-Build nach `dist/`
+- `npm run preview` – Production-Build lokal ausliefern
+- `npm run lint` – Linting mit oxlint

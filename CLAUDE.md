@@ -4,8 +4,10 @@ Hinweise für Claude Code in diesem Repository.
 
 ## Projekt
 
-`prototype_1` – frühes Prototyp-Stadium, noch kein Tech-Stack festgelegt.
+`prototype_1` – Prototyp mit Vite 8, React 19 und TypeScript. Einstieg: `src/main.tsx` → `src/App.tsx`.
 
 ## Befehle
 
-_Werden ergänzt, sobald Build/Test/Run-Tooling existiert._
+- `npm run dev` – Dev-Server (Port 5173)
+- `npm run build` – Typecheck + Build; vor Commits ausführen
+- `npm run lint` – oxlint (Konfiguration in `.oxlintrc.json`)
